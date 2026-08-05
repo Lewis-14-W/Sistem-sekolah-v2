@@ -30,8 +30,9 @@ class StudentController extends Controller
                 'name' => 'Citra',
                 'class' => 'X BID 1',
                 'major' => 'RPL'
-            ]
+            ],
         ];
+
         return view('students.index', [
             'title' => $title,
             'students' => $students
@@ -40,7 +41,8 @@ class StudentController extends Controller
 
     public function show($id)
     {
-        $title = "Sistem Sekolah - Lembar Siswa";
+        $title = "Sistem Sekolah - Detail Siswa";
+
         return view('students.show', [
             'title' => $title,
         ]);
@@ -48,7 +50,8 @@ class StudentController extends Controller
 
     public function create()
     {
-        $title = "Sistem Sekolah - Catat Siswa Baru";
+        $title = "Sistem Sekolah - Tambah Siswa";
+
         return view('students.create', [
             'title' => $title
         ]);
@@ -57,6 +60,7 @@ class StudentController extends Controller
     public function edit($id)
     {
         $title = "Sistem Sekolah - Ubah Data Siswa";
+        
         return view('students.edit', [
             'title' => $title
         ]);

@@ -97,6 +97,6 @@ class MajorController extends Controller
      */
     public function destroy(string $id)
     {
-        return "Menghapus data kelas dengan ID: {$id}";
+        return "Menghapus data jurusan dengan ID: {$id}";
     }
 }

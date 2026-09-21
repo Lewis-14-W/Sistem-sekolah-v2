@@ -3,7 +3,7 @@
 @section('title', $title)
 
 @section('content')
-    <x-alert>
+    <x-alert type="error">
         Terdapat kesalahan ketika menambahkan data siswa baru ke dalam sistem sekolah
     </x-alert>
 

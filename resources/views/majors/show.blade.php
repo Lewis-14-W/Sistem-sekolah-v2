@@ -65,7 +65,7 @@
 
             <a href="" class="px-4 py-2.5 text-sm font-medium text-slate-500 hover:text-[#16213A]">Kembali</a>
 
-            <form action="" method="POST" onsubmit="return confirm('Hapus data siswa ini dari buku induk?')">
+            <form action="" method="POST" onsubmit="return confirm('Hapus data jurusan ini dari buku induk?')">
 
                 @csrf
 

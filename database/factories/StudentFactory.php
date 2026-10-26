@@ -29,7 +29,6 @@ class StudentFactory extends Factory
             'user_id'=> User::factory(),
             'major_id'=> Major::inRandomOrder()->first()->id,
             'class_id'=> SchoolClass::inRandomOrder()->first()->id,
-            'class' => 'X TKJ 1'
 
         ];
     }
